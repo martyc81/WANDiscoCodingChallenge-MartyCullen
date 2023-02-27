@@ -12,19 +12,19 @@ public class CodingChallenge {
 
     public static double volumeOfSphere(int radius){
         double sphereVolume = (4 * Math.PI * Math.pow(radius, 3))/3;
-        System.out.printf("The volume of your sphere is %.2f %n", sphereVolume);
+        System.out.printf("The volume of your sphere with radius " + radius + " is %.2f %n", sphereVolume);
         return sphereVolume;
     }
 
     public static double volumeOfCube(int cubeSide){
         double cubeVolume = Math.pow(cubeSide, 3);
-        System.out.printf("The volume of your cube is %.2f %n", cubeVolume);
+        System.out.printf("The volume of your cube with side length " + cubeSide + " is %.2f %n", cubeVolume);
         return cubeVolume;
     }
 
     public static double volumeOfTetrahedron(int tetrahedronSide){
         double tetrahedronVolume = Math.pow(tetrahedronSide, 3)/(6*(Math.sqrt(2)));
-        System.out.printf("The volume of your tetrahedron is %.2f %n", tetrahedronVolume);
+        System.out.printf("The volume of your tetrahedron with side length " + tetrahedronSide + " is %.2f %n", tetrahedronVolume);
         return tetrahedronVolume;
     }
 }
